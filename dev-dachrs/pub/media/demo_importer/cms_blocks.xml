@@ -1,0 +1,706 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <item>
+      <title><![CDATA[Default - Hotline header]]></title>
+      <identifier><![CDATA[default_hotline]]></identifier>
+      <content><![CDATA[<p>Need Help? <a title="+001 123 456 789" href="tel:+001123456789">+001 123 456 789</a></p>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Topbar menu]]></title>
+      <identifier><![CDATA[default_topbar_menu]]></identifier>
+      <content><![CDATA[<ul class="hozital-menu">
+<li><a title="Order Tracking" href="{{store url=''}}customer/account">My account</a></li>
+<li><a title="About Us" href="{{store url=''}}about-us/">About Us</a></li>
+<li><a title="Contact Us" href="{{store url=''}}contact/">Contact Us</a></li>
+<li><a title="FAQs" href="{{store url=''}}rokanfaq">FAQs</a></li>
+</ul>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Custom menu before]]></title>
+      <identifier><![CDATA[default_rokanthemes_custom_menu_before]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;ul&gt;
+&lt;li class="ui-menu-item level0 classic "&gt;&lt;a class="level-top" href="{{store url=''}}"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Menu block after]]></title>
+      <identifier><![CDATA[default_rokanthemes_custom_menu]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;ul&gt;
+&lt;li class="ui-menu-item level0  classic menu-item-has-children parent"&gt;&lt;a class="level-top"&gt;Page&lt;/a&gt;
+&lt;div class="open-children-toggle"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="level0 submenu"&gt;
+&lt;div class="row"&gt;
+&lt;ul class="subchildmenu "&gt;
+&lt;li class="ui-menu-item level2 "&gt;&lt;a href="{{store url=''}}store-locator/"&gt;Store Locator&lt;/a&gt;&lt;/li&gt;
+&lt;li class="ui-menu-item level2 "&gt;&lt;a href="{{store url=''}}rokanthemes-brand.html"&gt;Shop By Brand&lt;/a&gt;&lt;/li&gt;
+&lt;li class="ui-menu-item level2 "&gt;&lt;a href="{{store url=''}}rokanfaq"&gt;Faq&lt;/a&gt;&lt;/li&gt;
+&lt;li class="ui-menu-item level2 "&gt;&lt;a href="{{store url=''}}404/"&gt;404 Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li class="ui-menu-item level0"&gt;&lt;a class="level-top" href="{{store url=''}}blog/"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li class="ui-menu-item level0 classic "&gt;&lt;a class="level-top" href="{{store url=''}}contact/"&gt;Contact us&lt;/a&gt;&lt;/li&gt;
+&lt;li class="ui-menu-item level0 classic "&gt;&lt;a class="level-top" href="{{store url=''}}about-us/"&gt;About us&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Header static text]]></title>
+      <identifier><![CDATA[default_header_static_text]]></identifier>
+      <content><![CDATA[<p>Spend $120 more and get free shipping!</p>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Default - Shipping support]]></title>
+      <identifier><![CDATA[default_shipping_support]]></identifier>
+      <content><![CDATA[<div class="shipping-support">
+<div class="row space-around">
+<div class="col-auto col-lg-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-shipping" aria-hidden="true"><span class="hidden">icon icon-tracking</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">Free Delivery</h6>
+<p>For all orders over $120</p>
+</div>
+</div>
+</div>
+<div class="col-auto col-lg-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-payment" aria-hidden="true"><span class="hidden">icon icon-payment</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">Safe Payment</h6>
+<p>If goods have problems</p>
+</div>
+</div>
+</div>
+<div class="col-auto col-lg-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-help-center" aria-hidden="true"><span class="hidden">icon icon-help-center</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">24/7 Help Center</h6>
+<p>24/7 Customer Support</p>
+</div>
+</div>
+</div>
+<div class="col-auto col-lg-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-confidence" aria-hidden="true"><span class="hidden">icon icon-friendly-services</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">Return money</h6>
+<p>If goods have problems</p>
+</div>
+</div>
+</div>
+<div class="col-auto col-lg-3 col-6 hidden-xl">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-friendly-services" aria-hidden="true"><span class="hidden">icon icon-help-center</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">Friendly Services</h6>
+<p>30 day satisfaction</p>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer customer care]]></title>
+      <identifier><![CDATA[default_footer_customer_care]]></identifier>
+      <content><![CDATA[<h4 class="footer-title">Help & Customer Care</h4>
+<ul class="footer-contents">
+<li><a href="#">New Customers</a></li>
+<li><a href="#">How to use My Account</a></li>
+<li><a href="#">Placing an Order</a></li>
+<li><a href="#">Payment Methods</a></li>
+<li><a href="#">Payment Methods</a></li>
+<li><a href="#">Problems with your Order</a></li>
+</ul>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer my account]]></title>
+      <identifier><![CDATA[default_footer_myaccount]]></identifier>
+      <content><![CDATA[<h4 class="footer-title">My Account</h4>
+<ul class="footer-contents">
+<li><a href="#">Product Support</a></li>
+<li><a href="#">Checkout</a></li>
+<li><a href="#">Shopping Cart</a></li>
+<li><a href="#">Wishlist</a></li>
+<li><a href="#">Custom Link</a></li>
+<li><a href="#">Redeem Voucher</a></li>
+</ul>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer quick link]]></title>
+      <identifier><![CDATA[default_footer_quicklink]]></identifier>
+      <content><![CDATA[<h4 class="footer-title">Quick Links</h4>
+<ul class="footer-contents">
+<li><a href="#">Store Location</a></li>
+<li><a href="#">My Account</a></li>
+<li><a href="#">Orders Tracking</a></li>
+<li><a href="#">FAQs</a></li>
+</ul>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer customer service]]></title>
+      <identifier><![CDATA[default_footer_customer_service]]></identifier>
+      <content><![CDATA[<h4 class="footer-title">Customer Service</h4>
+<ul class="footer-contents">
+<li><a href="#">Help Center</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Report Abuse</a></li>
+<li><a href="#">Submit a Dispute</a></li>
+<li><a href="#">Policies & Rules</a></li>
+<li><a href="#">Online Returns Policy</a></li>
+</ul>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer Newsletter]]></title>
+      <identifier><![CDATA[default_footer_subscriber]]></identifier>
+      <content><![CDATA[<h4 class="footer-title">Sign Up To Newsletter</h4>
+<div class="footer-contents">{{block class="Magento\Newsletter\Block\Subscribe" template="Magento_Newsletter::subscribe.phtml"}}
+<p style="color: #666;" class="margin_0">By providing your email address, you agree to our<br><a title="Privacy Policy" href="#"><span style="text-decoration: underline;"><em>Privacy Policy</em></span></a> and <a title="Terms of Service." href="#"><span style="text-decoration: underline;"><em>Terms of Service.</em></span></a></p>
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer bottom menu]]></title>
+      <identifier><![CDATA[default_footer_bottom_link]]></identifier>
+      <content><![CDATA[<ul>
+<li><a href="#">About us</a></li>
+<li><a href="#">Customer</a></li>
+<li><a href="#">Service</a></li>
+<li><a href="#">Privacy policy</a></li>
+<li><a href="#">Site map</a></li>
+<li><a href="#">Advanced search</a></li>
+<li><a href="#">Contact us</a></li>
+</ul>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer payment]]></title>
+      <identifier><![CDATA[default_footer_payment]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;img src="{{media url=wysiwyg/payment.png}}" alt="Payment method"&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Default - Contact us addition]]></title>
+      <identifier><![CDATA[default_contact_additional]]></identifier>
+      <content><![CDATA[<div class="container-min">
+<p class="margin_0" style="text-align: center;">Hi, friends!</p>
+<h1 class="regular size-60" style="text-align: center;">Contact Us</h1>
+<p style="text-align: center;">The most important part of improving at photography has been sharing it. Sign up for an Exposure account,<br>or post regularly to Tumblr, or both. Tell people you’re trying to get better at photography. When you talk about it, other <br>people get excited about it. There are few plugins and apps available for this purpose.</p>
+</div>
+<section class="full-width"><img style="display: block; margin-left: auto; margin-right: auto;" src="{{media url="wysiwyg/cotact-banner.jpg"}}" alt=""></section>
+<section>
+<div class="container-min">
+<h4 class="size-14 color_primary uppercase" style="text-align: center; margin-bottom: 1.5rem;">Contact Us</h4>
+<h3 class="size-36 margin_0" style="text-align: center;"><span class="regular">Hello, We are Dukamarket.</span></h3>
+<h3 class="size-36" style="text-align: center;">Contact Us For Any Questions</h3>
+<p style="text-align: center;">The perfect way to enjoy brewing tea on low hanging fruit to identify. Duis autem vel eum iriure dolor in hendrerit in vulputate velit<br>esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. For me, the most important part of improving at photography has been sharing it. <br>Sign up for an Exposure account, or post regularly to Tumblr, or both.</p>
+<div class="our-store">
+<div class="store-list owl-carousel owl-theme" data-items="4" data-bigdesktop="4" data-smalldesktop="3" data-bigtablet="3" data-tablet="2" data-smalltablet="2" data-mobile="1" data-margin="30" data-dots="false" data-autoplay="true" data-speed="500">
+<div class="col-content">
+<div class="store-picture"><img src="{{media url="wysiwyg/contact-us-1.jpg"}}" alt=""></div>
+<div class="store-info">
+<div class="company flex-layout center_vertical">
+<div class="col-img"><img src="{{media url="wysiwyg/flag1.png"}}" alt=""></div>
+<div class="col-content">
+<p class="size-12 grey margin_0" style="line-height: 1.5;">Dukanmarekt Digital Store</p>
+<h4 class="margin_0 size-14">FRANCE</h4>
+</div>
+<hr></div>
+</div>
+<div class="store-address">
+<p class="margin_0">Add: S9 Heaven Stress, Beverly Hill, USA.</p>
+<p class="margin_0">Phone: +1 (800) 123 456 789</p>
+<p class="margin_0">Email: Contact@erentheme.com</p>
+</div>
+</div>
+<div class="col-content">
+<div class="store-picture"><img src="{{media url="wysiwyg/contact-us-2.jpg"}}" alt=""></div>
+<div class="store-info">
+<div class="company flex-layout center_vertical">
+<div class="col-img"><img src="{{media url="wysiwyg/flag2.png"}}" alt=""></div>
+<div class="col-content">
+<p class="size-12 grey margin_0" style="line-height: 1.5;">Dukanmarekt Digital Store</p>
+<h4 class="margin_0 size-14">FRANCE</h4>
+</div>
+<hr></div>
+</div>
+<div class="store-address">
+<p class="margin_0">Add: S9 Heaven Stress, Beverly Hill, USA.</p>
+<p class="margin_0">Phone: +1 (800) 123 456 789</p>
+<p class="margin_0">Email: Contact@erentheme.com</p>
+</div>
+</div>
+<div class="col-content">
+<div class="store-picture"><img src="{{media url="wysiwyg/contact-us-3.jpg"}}" alt=""></div>
+<div class="store-info">
+<div class="company flex-layout center_vertical">
+<div class="col-img"><img src="{{media url="wysiwyg/flag3.png"}}" alt=""></div>
+<div class="col-content">
+<p class="size-12 grey margin_0" style="line-height: 1.5;">Dukanmarekt Digital Store</p>
+<h4 class="margin_0 size-14">FRANCE</h4>
+</div>
+<hr></div>
+</div>
+<div class="store-address">
+<p class="margin_0">Add: S9 Heaven Stress, Beverly Hill, USA.</p>
+<p class="margin_0">Phone: +1 (800) 123 456 789</p>
+<p class="margin_0">Email: Contact@erentheme.com</p>
+</div>
+</div>
+<div class="col-content">
+<div class="store-picture"><img src="{{media url="wysiwyg/contact-us-4.jpg"}}" alt=""></div>
+<div class="store-info">
+<div class="company flex-layout center_vertical">
+<div class="col-img"><img src="{{media url="wysiwyg/flag4.png"}}" alt=""></div>
+<div class="col-content">
+<p class="size-12 grey margin_0" style="line-height: 1.5;">Dukanmarekt Digital Store</p>
+<h4 class="margin_0 size-14">FRANCE</h4>
+</div>
+<hr></div>
+</div>
+<div class="store-address">
+<p class="margin_0">Add: S9 Heaven Stress, Beverly Hill, USA.</p>
+<p class="margin_0">Phone: +1 (800) 123 456 789</p>
+<p class="margin_0">Email: Contact@erentheme.com</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="full-width"><iframe src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near" width="100%" height="500" frameborder="0" marginwidth="0" scrolling="no" aria-label="London Eye, London, United Kingdom"></iframe></section>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Default - Cms beside contact form]]></title>
+      <identifier><![CDATA[default_cms_beside_form]]></identifier>
+      <content><![CDATA[<p class="size-18">Information Questions</p>
+<h2>Prequently asked questions</h2>
+<div class="panel-group">
+<div class="panel">
+<div class="panel-heading">
+<h5>Will I receive the same product that I see in the picture?</h5>
+</div>
+<div class="panel-collapse collapse">
+<p>Consectetur cras scelerisque dis nec mi vestibulum ullamcorper turpis enim natoque tempus a malesuada suspendisse iaculis adipiscing himenaeos tincidunt.Tellus pharetra dis nostra urna a scelerisque id parturient ullamcorper ullamcorper class ad consectetur tristique et.</p>
+<p>Hendrerit mollis facilisi odio a montes scelerisque a scelerisque justo a praesent conubia aenean mi tempor.</p>
+</div>
+</div>
+<div class="panel">
+<div class="panel-heading">
+<h5>Where can i view my sales receipt?</h5>
+</div>
+<div class="panel-collapse collapse">
+<p>Consectetur cras scelerisque dis nec mi vestibulum ullamcorper turpis enim natoque tempus a malesuada suspendisse iaculis adipiscing himenaeos tincidunt.Tellus pharetra dis nostra urna a scelerisque id parturient ullamcorper ullamcorper class ad consectetur tristique et.</p>
+<p>Hendrerit mollis facilisi odio a montes scelerisque a scelerisque justo a praesent conubia aenean mi tempor.</p>
+</div>
+</div>
+<div class="panel">
+<div class="panel-heading">
+<h5>How can I return an items?</h5>
+</div>
+<div class="panel-collapse collapse">
+<p>Consectetur cras scelerisque dis nec mi vestibulum ullamcorper turpis enim natoque tempus a malesuada suspendisse iaculis adipiscing himenaeos tincidunt.Tellus pharetra dis nostra urna a scelerisque id parturient ullamcorper ullamcorper class ad consectetur tristique et.</p>
+<p>Hendrerit mollis facilisi odio a montes scelerisque a scelerisque justo a praesent conubia aenean mi tempor.</p>
+</div>
+</div>
+<div class="panel">
+<div class="panel-heading">
+<h5>Will you restock items indicated as “out of stock?”</h5>
+</div>
+<div class="panel-collapse collapse">
+<p>Consectetur cras scelerisque dis nec mi vestibulum ullamcorper turpis enim natoque tempus a malesuada suspendisse iaculis adipiscing himenaeos tincidunt.Tellus pharetra dis nostra urna a scelerisque id parturient ullamcorper ullamcorper class ad consectetur tristique et.</p>
+<p>Hendrerit mollis facilisi odio a montes scelerisque a scelerisque justo a praesent conubia aenean mi tempor.</p>
+</div>
+</div>
+<div class="panel">
+<div class="panel-heading">
+<h5>Where can I ship my order?</h5>
+</div>
+<div class="panel-collapse collapse">
+<p>Consectetur cras scelerisque dis nec mi vestibulum ullamcorper turpis enim natoque tempus a malesuada suspendisse iaculis adipiscing himenaeos tincidunt.Tellus pharetra dis nostra urna a scelerisque id parturient ullamcorper ullamcorper class ad consectetur tristique et.</p>
+<p>Hendrerit mollis facilisi odio a montes scelerisque a scelerisque justo a praesent conubia aenean mi tempor.</p>
+</div>
+</div>
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Default - Footer about store]]></title>
+      <identifier><![CDATA[default_footer_about_store]]></identifier>
+      <content><![CDATA[<h4 class="footer-title">About The Store</h4>
+<div class="footer-contents">
+<p>Our mission statement is to provide the absolute best<br>customer experience available in the Electronic industry<br>without exception.</p>
+<div class="flex-layout">
+<div class="image_hotline color_primary"><em class="icon icon-earphones" aria-hidden="true"><span class="hidden">icon icon-help-center</span></em></div>
+<div class="wrap">
+<p class="margin_0">Got Question? Call us 24/7!</p>
+<h2 class="margin_0 size-24 regular color_primary">+001 123 456 789</h2>
+</div>
+</div>
+<p class="margin_0">Add: Walls Street 68, Mahattan, New York, USA</p>
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Default Digital 04 - 05 - 06 Shipping support]]></title>
+      <identifier><![CDATA[default_digital_04_05_06_shipping_support]]></identifier>
+      <content><![CDATA[<div class="shipping-support">
+<div class="row space-between">
+<div class="col-auto col-lg-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-shipping" aria-hidden="true"><span class="hidden">icon icon-tracking</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">Free Delivery</h6>
+<p>For all orders over $120</p>
+</div>
+</div>
+</div>
+<div class="col-auto col-lg-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-payment" aria-hidden="true"><span class="hidden">icon icon-payment</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">Safe Payment</h6>
+<p>100% secure payment</p>
+</div>
+</div>
+</div>
+<div class="col-auto col-lg-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-help-center" aria-hidden="true"><span class="hidden">icon icon-help-center</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">24/7 Help Center</h6>
+<p>Dedicated 24/7 support</p>
+</div>
+</div>
+</div>
+<div class="col-auto col-lg-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-confidence" aria-hidden="true"><span class="hidden">icon icon-friendly-services</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">Friendly Services</h6>
+<p>30 days you are satisfied</p>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Digital 04 Footer Top]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_digital_04_footer_top]]></identifier>
+      <content><![CDATA[<div class="flex-layout">
+<div class="col-lg-4 col-md-6 footer-links">
+<h4 class="footer-title">Follow Us</h4>
+<div class="footer-contents">
+<p class="margin_0">We make consolidating, marketing and tracking your social<br>media website easy.</p>
+{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="default_social_link"}}</div>
+</div>
+<div class="col-lg-4 col-md-6 footer-links">
+<h4 class="footer-title">Sign Up To Newsletter</h4>
+<div class="footer-contents">{{block class="Magento\Newsletter\Block\Subscribe" template="Magento_Newsletter::subscribe.phtml"}}</div>
+</div>
+<div class="col-lg-4 col-md-6 footer-links">
+<h4 class="footer-title">Download App</h4>
+<div class="footer-contents">
+<p class="margin_0">Dukamarket App is now available on App Store &amp; Google Play. <br>Get it now.</p>
+<div class="flex-layout download-app"><a href="#"><img style="margin-right: 20px;" src="{{media url="wysiwyg/app-1.png"}}" alt="app1"></a><a href="#"><img src="{{media url="wysiwyg/app-2.png"}}" alt="app2"></a></div>
+</div>
+</div>
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Default Menu Link Bottom Footer]]></title>
+      <identifier><![CDATA[default_menu_link_bottom_footer]]></identifier>
+      <content><![CDATA[<ul>
+<li><a href="#">Online Shopping</a></li>
+<li><a href="#">Promotions</a></li>
+<li><a href="#">My Orders</a></li>
+<li><a href="#">Help</a></li>
+<li><a href="#">Customer Service</a></li>
+<li><a href="#">Support</a></li>
+<li><a href="#">New Arrivals</a></li>
+<li><a href="#">Customer Service</a></li>
+<li><a href="#">Special Products</a></li>
+<li><a href="#">Manufacturers</a></li>
+</ul>
+<ul>
+<li><a href="#">Our Stores</a></li>
+<li><a href="#">Shipping</a></li>
+<li><a href="#">Payments</a></li>
+<li><a href="#">Checkout</a></li>
+<li><a href="#">Discount</a></li>
+<li><a href="#">Terms &amp; Conditions</a></li>
+<li><a href="#">Policy Shipping</a></li>
+<li><a href="#">Returns</a></li>
+<li><a href="#">Refunds</a></li>
+</ul>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Digital 06 - Header static text]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_digital_06_header_static_text]]></identifier>
+      <content><![CDATA[<p class="uppercase"><strong style="color: #fdc801;">Limited Time Offer !</strong></p>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Tool 02 Shipping Footer]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_tool_02_shipping_footer]]></identifier>
+      <content><![CDATA[<div class="shipping-support">
+<div class="flex-layout space-between">
+<div class="col-xl-3 col-6 first-contact">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-earphones" aria-hidden="true"><span class="hidden">icon icon-help-center</span></em>
+<div class="content">
+<p class="margin_0 hidden-xs" style="color: #ffa7a7;">Got Question? Call us 24/7!</p>
+<h2 class="margin_0 size-24 regular" style="color: #ffffff;">+001 123 456 789</h2>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-shipping" aria-hidden="true"><span class="hidden">icon icon-tracking</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">Free Delivery</h6>
+<p>For all orders over $120</p>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-payment" aria-hidden="true"><span class="hidden">icon icon-payment</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">Safe Payment</h6>
+<p>100% secure payment</p>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-6">
+<div class="col-content flex-layout center_hozital no-wrap"><em class="icon icon-help-center" aria-hidden="true"><span class="hidden">icon icon-help-center</span></em>
+<div class="content">
+<h6 class="footer-title uppercase">24/7 Help Center</h6>
+<p>Dedicated 24/7 support</p>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer download app]]></title>
+      <identifier><![CDATA[default_footer_download_app]]></identifier>
+      <content><![CDATA[<h4 class="footer-title">Download App</h4>
+<div class="footer-contents">
+<p>Dukamarket App is now available on App Store &amp; Google Play. <br>Get it now.</p>
+<div class="flex-layout download-app no-wrap"><a href="#"><img src="{{media url="wysiwyg/app-store.png"}}" alt="App store"></a><a href="#"><img src="{{media url="wysiwyg/google-play.png"}}" alt="Google play"/></a></div>
+{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="default_social_link"}}</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Social link]]></title>
+      <identifier><![CDATA[default_social_link]]></identifier>
+      <content><![CDATA[<ul class="social-link flex-layout">
+<li><a style="background-color: #3c5b9b;" href="https://facebook.com/" target="_blank" rel="noopener"> <span class="fab fa-facebook-f"><span class="text">Facebook</span></span> </a></li>
+<li><a style="background-color: #40c1df;" href="https://twitter.com/" target="_blank" rel="noopener"> <span class="fab fa-twitter"><span class="text">Twitter</span></span> </a></li>
+<li><a style="background-color: #c619b8;" href="https://instagram.com/" target="_blank" rel="noopener"> <span class="fab fa-instagram"><span class="text">Instagram</span></span> </a></li>
+<li><a style="background-color: #ed3c32;" href="https://dribbble.com/" target="_blank" rel="noopener"> <span class="fab fab fa-google-plus-g"><span class="text">google</span></span> </a></li>
+<li><a style="background-color: #eb8314;" href="https://dribbble.com/" target="_blank" rel="noopener"> <span class="fas fa-rss"><span class="text">rss</span></span> </a></li>
+<li><a style="background-color: #c72982;" href="https://dribbble.com/" target="_blank" rel="noopener"> <span class="fab fa-dribbble"><span class="text">Dribbble</span></span> </a></li>
+</ul>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Bluesky Dukamarket Sport 01 Banner Testimonal ]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_sport_01_banner_testimonal]]></identifier>
+      <content><![CDATA[<div class="banner-testimonal">
+<div class="banner-testimonal-icon"><img src="{{media url="wysiwyg/img-icon.png"}}" alt=""></div>
+<h2 class="size-30">Customers Are Satisfied<br>With Our <span style="color: #fa5d2a;">Perfect &amp; Friendly</span> Service</h2>
+<div class= "banner-testimonal-text"><p class="size-14" style="color: #666666;">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p></div>
+<div class="button-wrap size-13"><a class="btn" style="color: #ffffff;" title="shop now" href="#">Discover now</a></div>
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Default - Footer Store 01 about store]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_store_01_about_store]]></identifier>
+      <content><![CDATA[<h4 class="footer-title">Looking For Dukamarket?</h4>
+<div class="footer-contents">
+<p>+1 (800) 123 456 789</p>
+<p>460 Peutestrabe, Hamburg, Germany</p>
+<p>Example@dukamarket.com</p>
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Default - Footer company introduction]]></title>
+      <identifier><![CDATA[default_footer_company_introduction]]></identifier>
+      <content><![CDATA[<div class="footer-store-top">
+<h4 class="footer-title">About Dukamarket Store</h4>
+<div class="footer-contents">
+<p class="size-14 margin_0" style="color: #666;">Dukamarket is a premium template theme with advanced admin module.</p>
+<p class="size-14 margin_0" style="color: #666;">It's extremely easy to use and fully responsive and retina ready.</p>
+<div class="pay-icon"><img src="{{media url="wysiwyg/payment.png"}}" alt=""></div>
+<p class="size-14 margin_0" style="color: #666;">Opening Hours: Monday – Friday: 9:00-20:00 / Saturday: 11:00 – 17:00</p>
+</div>
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Bluesky Sport 01 Footer payment]]></title>
+      <identifier><![CDATA[bluesky_dukamaket_sport_01-footer-payment]]></identifier>
+      <content><![CDATA[<div class="flex-layout center">
+<p>Social Media:</p>
+{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="default_social_link"}}
+</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer customer service sport]]></title>
+      <identifier><![CDATA[default_footer_customer_service_sport]]></identifier>
+      <content><![CDATA[<h4 class="footer-title">Customer Service</h4>
+<ul class="footer-contents">
+<li><a href="#">Help Center</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Report Abuse</a></li>
+<li><a href="#">Submit a Dispute</a></li>
+<li><a href="#">Policies &amp; Rules</a></li>
+</ul>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer my account sport]]></title>
+      <identifier><![CDATA[default_footer_myaccount_sport]]></identifier>
+      <content><![CDATA[<h4 class="footer-title">My Account</h4>
+<ul class="footer-contents">
+<li><a href="#">Product Support</a></li>
+<li><a href="#">Checkout</a></li>
+<li><a href="#">Shopping Cart</a></li>
+<li><a href="#">Wishlist</a></li>
+<li><a href="#">Custom Link</a></li>
+</ul>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Bluesky Dukamarket Medical 01 Footer About Store]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_medical_01_footer_about_store]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;h4 class="footer-title"&gt;About The Store&lt;/h4&gt;
+&lt;div class="footer-contents"&gt;
+&lt;div class="flex-layout"&gt;
+&lt;div class="image_hotline color_primary"&gt;&lt;em class="icon icon-earphones" aria-hidden="true"&gt;&lt;span class="hidden"&gt;icon icon-help-center&lt;/span&gt;&lt;/em&gt;&lt;/div&gt;
+&lt;div class="wrap"&gt;
+&lt;p class="margin_0"&gt;Got Question? Call us 24/7!&lt;/p&gt;
+&lt;h2 class="margin_0 size-24 regular color_primary"&gt;+001 123 456 789&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class="margin_0"&gt;Add: Walls Street 68, Mahattan, New York, USA&lt;/p&gt;
+&lt;ul class="about-store-list"&gt;
+&lt;li class="about-store-item"&gt;&lt;a href="#" class="about-store-link"&gt;Dukamarket@google.com&lt;/a&gt;&lt;/li&gt;
+&lt;li class="about-store-item"&gt;&lt;a href="#" class="about-store-link"&gt;Center Help For You&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer download app medical]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_medical_01_footer_download_app]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;h4 class="footer-title"&gt;Download App&lt;/h4&gt;
+&lt;div class="footer-contents"&gt;
+&lt;p class="title-download-app"&gt;Dukamarket App is now available on App Store&lt;br&gt;&amp;amp; Google Play. Get it now.&lt;/p&gt;
+&lt;div class="flex-layout download-app no-wrap"&gt;&lt;a href="#"&gt;&lt;img src="{{media url=wysiwyg/app-store.jpg}}" alt=""&gt;&lt;/a&gt;&lt;a href="#"&gt;&lt;img src="{{media url=wysiwyg/google-play.jpg}}" alt=""&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p class="margin_0"&gt;Get the app to &lt;span&gt;get a $20 coupon&lt;/span&gt; for your first purchase.&lt;/p&gt;
+&lt;/div&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Medical - Shipping support]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_medical_shipping_support]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;div class="shipping-support"&gt;
+&lt;div class="row space-around"&gt;
+&lt;div class=" col-lg-3 col-sm-6 col-6 item-shipping"&gt;
+&lt;div class="col-content flex-layout center_hozital no-wrap"&gt;&lt;em class="icon icon-shipping" aria-hidden="true"&gt;&lt;span class="hidden"&gt;icon icon-tracking&lt;/span&gt;&lt;/em&gt;
+&lt;div class="content"&gt;
+&lt;h6 class="footer-title uppercase"&gt;Free Delivery&lt;/h6&gt;
+&lt;p&gt;For all orders over $120&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-3 col-sm-6 col-6 item-shipping"&gt;
+&lt;div class="col-content flex-layout center_hozital no-wrap"&gt;&lt;em class="icon icon-payment" aria-hidden="true"&gt;&lt;span class="hidden"&gt;icon icon-payment&lt;/span&gt;&lt;/em&gt;
+&lt;div class="content"&gt;
+&lt;h6 class="footer-title uppercase"&gt;Safe Payment&lt;/h6&gt;
+&lt;p&gt;100% secure payment&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-3 col-sm-6 col-6  item-shipping"&gt;
+&lt;div class="col-content flex-layout center_hozital no-wrap"&gt;&lt;em class="icon icon-help-center" aria-hidden="true"&gt;&lt;span class="hidden"&gt;icon icon-help-center&lt;/span&gt;&lt;/em&gt;
+&lt;div class="content"&gt;
+&lt;h6 class="footer-title uppercase"&gt;24/7 Help Center&lt;/h6&gt;
+&lt;p&gt;Dedicated 24/7 support&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-3 col-sm-6 col-6  item-shipping"&gt;
+&lt;div class="col-content flex-layout center_hozital no-wrap"&gt;&lt;em class="icon icon-friendly-services" aria-hidden="true"&gt;&lt;span class="hidden"&gt;icon icon-help-center&lt;/span&gt;&lt;/em&gt;
+&lt;div class="content"&gt;
+&lt;h6 class="footer-title uppercase"&gt;Friendly Services&lt;/h6&gt;
+&lt;p&gt;30 day satisfaction&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Footer download app organic]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_organic_01_footer_download_app]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;h4 class="footer-title"&gt;Download App&lt;/h4&gt;
+&lt;div class="footer-contents"&gt;
+&lt;p class="title-download-app"&gt;Dukamarket App is now available on App Store&lt;br&gt;&amp;amp; Google Play. Get it now.&lt;/p&gt;
+&lt;div class="flex-layout download-app no-wrap"&gt;&lt;a href="#"&gt;&lt;img src="http://azexchangeclub.com/dukamarket_243/media/wysiwyg/app-img.png" alt="" /&gt;&lt;/a&gt;&lt;a href="#"&gt;&lt;img src="http://azexchangeclub.com/dukamarket_243/media/wysiwyg/google-img.png" alt="" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p class="margin_0"&gt;Get the app to &lt;span&gt;get a $20 coupon&lt;/span&gt; for your first purchase.&lt;/p&gt;
+&lt;/div&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Market 01 Newsletter Footer]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_market_01_newsletter_footer]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;div&gt;{{block class="Magento\Newsletter\Block\Subscribe" template="Magento_Newsletter::subscribe.phtml"}}&lt;/div&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Market 01 Address Footer]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_market_01_address_footer]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;h4 class="footer-title"&gt;Looking For Store?&lt;/h4&gt;
+&lt;div class="footer-contents"&gt;
+&lt;div class= "store-address"&gt;
+&lt;p class= "margin_0"&gt;38 West Temple Drive Ashburn, East Hartford&lt;/p&gt;
+&lt;p class= "margin_0"&gt;VA 208686, California, USA.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p class= "maps-store"&gt;&lt;a href="#"&gt;Show on map&lt;/a&gt;&lt;/p&gt;
+&lt;div class= footer-payment&gt;&lt;img src="http://azexchangeclub.com/dukamarket_243/media/wysiwyg/footer-payment.png" alt="" /&gt;&lt;/div&gt;
+&lt;/div&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Market 01 Contact Footer]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_market_01_contact_footer]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;h4 class="footer-title"&gt;Need Help?&lt;/h4&gt;
+&lt;div class="footer-contents"&gt;
+&lt;div class="flex-layout no-wrap align-items-end"&gt;
+&lt;div class="image_hotline color_primary"&gt;&lt;em class="icon icon-earphones" aria-hidden="true"&gt;&lt;span class="hidden"&gt;icon icon-help-center&lt;/span&gt;&lt;/em&gt;&lt;/div&gt;
+&lt;div class="wrap"&gt;
+&lt;p class="margin_0 gray"&gt;Got Question?&lt;/p&gt;
+&lt;h2 class="margin_0 size-24 regular color_primary"&gt;+001 123 456 789&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class="margin_0"&gt;Opening Hours: Monday – Friday: 9:00-20:00&lt;/p&gt;
+&lt;p class= "working-time"&gt;Saturday: 11:00 – 17:00&lt;/p&gt;
+&lt;p class= "email-store margin_0"&gt;Email Support: contact@example.com&lt;/p&gt;
+&lt;/div&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Market 01 Hotline]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_market_01_hotline]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;p class= "size-13"&gt;Call Us Now:&lt;/p&gt;
+&lt;p class= "size-13"&gt;&lt;a title="+001 123 456 789" href="tel:+001123456789"&gt;(+001) 123 456 789&lt;/a&gt;&lt;/p&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Bluesky Dukamarket Market 01 Topbar]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_market_01_topbar]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;ul class="hozital-menu-content"&gt;
+&lt;li&gt;&lt;a href="{{store url=''}}store-locator/"&gt;Store Locator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a title="Order Tracking" href="{{store url=''}}customer/account"&gt;My account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a title="FAQs" href="{{store url=''}}rokanfaq"&gt;FAQs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Bluesky Dukamarket Market 01 Contact]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_market_01_contact]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;ul&gt;
+&lt;li class="margin_0 size-13" style="color: #fff;"&gt;Contact us&lt;/li&gt;
+&lt;li class="ui-menu-item level0 classic margin_0"&gt;&lt;a class="level-top" href="{{store url=''}}contact/"&gt;&lt;span&gt;Help, Support&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Bluesky Dukamarket Market 01 Title]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_market_01_title]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main"> &lt;p&gt;Due to the &lt;span&gt;COVID-19&lt;/span&gt; epidemic, orders may be processed with a slight delay.&lt;/p&gt;</div>]]></content>
+    </item>
+    <item>
+      <title><![CDATA[Bluesky Dukamarket Medical Title]]></title>
+      <identifier><![CDATA[bluesky_dukamarket_medical_title]]></identifier>
+      <content><![CDATA[<div data-content-type="html" data-appearance="default" data-element="main">&lt;p class="margin_0 size-13 regular"&gt;Due to the &lt;span class= "medium"&gt;COVID-19&lt;/span&gt; epidemic, orders may be processed with a slight delay.&lt;/p&gt;</div>]]></content>
+    </item>
+  </blocks>
+</root>
